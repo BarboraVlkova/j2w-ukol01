@@ -1,0 +1,57 @@
+body {
+    color: #1b191a;
+    background-color: rgb(238, 232, 221);
+    font-size: 17px;
+    line-height: 1.5;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color:#be5626;
+    text-align: left;;
+}
+
+h2,
+h3,
+a {
+    color:#be5626;
+    text-align: center;
+}
+
+
+a {
+    color: rgb(160, 67, 214);
+}
+
+li {
+    font-weight: bold;
+}
+
+
+div {
+    background-color: rgb(230, 210, 173);
+}
+
+.paticka {
+    background-color: rgb(236, 181, 79);
+    color: black;
+    text-align: center;
+}
+
+.fotoPes {
+    width: 400px;
+}
+
+.fotogalerie img {
+    width: 25%;
+}
+
+.hlavicka {
+
+    padding: 200px 50px;
+    background-image: url(obrazky/hlavicka.jpg);
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
