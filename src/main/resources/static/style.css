@@ -79,7 +79,7 @@ section {
 
 .hlavicka {
     padding: 200px 60px;
-    background-image: url(static/obrazky/hlavicka.jpg);
+    background-image: url(obrazky/hlavicka.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
