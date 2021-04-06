@@ -1,57 +1,108 @@
 body {
     color: #1b191a;
     background-color: rgb(238, 232, 221);
-    font-size: 17px;
+    font-size: 16px;
     line-height: 1.5;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Noto Serif SC', serif;
+    margin: 0;
 }
 
-h1 {
-    color:#be5626;
-    text-align: left;;
-}
-
+h1,
 h2,
 h3,
 a {
-    color:#be5626;
-    text-align: center;
+    color:#a37966;
+    font-family: cursive;
+    font-style: italic;
 }
 
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin: 0;
+    text-shadow: 0 3px 10px rgba(0, 0, 0, 2.0);
+}
+
+h2,
+h3 {
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+}
 
 a {
-    color: rgb(160, 67, 214);
+    color: rgb(218, 111, 69);
 }
 
-li {
+em {
     font-weight: bold;
 }
 
-
-div {
-    background-color: rgb(230, 210, 173);
+.historie,
+.popis,
+.fotogalerie {
+    background-color: rgb(235, 221, 195);
 }
 
 .paticka {
-    background-color: rgb(236, 181, 79);
-    color: black;
+    background-color:rgb(235, 221, 195);
     text-align: center;
-}
-
-.fotoPes {
-    width: 400px;
+    padding: 20px 0;
 }
 
 .fotogalerie img {
-    width: 25%;
+    width: 32%;
+    border: 2px solid #be5626;
+    border-radius: 15px;
+}
+
+table {
+    border-spacing: 0;
+}
+
+th,
+td {
+    text-align: left;
+    border-bottom: 1px solid black;
+    padding: 10px 0;
+}
+
+.druhy-sloupec{
+    text-align: right;
+    padding-left: 70px;
+}
+
+section {
+    padding: 50px 15%;
 }
 
 .hlavicka {
-
-    padding: 200px 50px;
+    padding: 200px 60px;
     background-image: url(obrazky/hlavicka.jpg);
-    background-position: center;
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+}
+
+.menu {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color:#a37966;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+.menu a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    padding: 20px 30px;
+}
+
+.menu a:hover {
+    background-color: #be5626;
 }
